@@ -14,7 +14,7 @@ namespace matematica
             try
             {
                 double risultato = double.NaN;
-                Console.WriteLine("che operazione vuoi ?(s/m/d/a/min/max/pot)");
+                Console.WriteLine("quale operazione vuoi ?(s/m/d/a/min/max/pot)");
                 string risposta = Console.ReadLine();
                 if (risposta == "s")
                 {
